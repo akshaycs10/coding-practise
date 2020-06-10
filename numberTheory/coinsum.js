@@ -11,9 +11,6 @@ for (let i = 0; i < coins.length; i++) {
             coinSum = coinSum + parseInt(quotient) * coins[i]
             coinCombination[`${coins[i]}`] = parseInt(quotient)
         }
-        else if (quotient <= 0)
-            coinCombination[`${coins[i]}`] = parseInt(quotient)
-
     }
     else
         break;
